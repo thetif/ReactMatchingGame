@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fc2c3e685dd620cb7d0bc0f648c7b63d",
+    "revision": "7a87b6eba213a310e8de6ca1389a4bf5",
     "url": "/ReactMatchingGame/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ReactMatchingGame/static/css/2.17e5ed98.chunk.css"
   },
   {
-    "revision": "0537e206a6a1527b1ec0",
+    "revision": "686669c7551e3e6db5d0",
     "url": "/ReactMatchingGame/static/css/main.2fca0c46.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ReactMatchingGame/static/js/2.bbf4e34f.chunk.js"
   },
   {
-    "revision": "0537e206a6a1527b1ec0",
-    "url": "/ReactMatchingGame/static/js/main.ebc537dc.chunk.js"
+    "revision": "686669c7551e3e6db5d0",
+    "url": "/ReactMatchingGame/static/js/main.aab698fb.chunk.js"
   },
   {
     "revision": "bcde099af48b09b19783",

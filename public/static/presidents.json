@@ -1,0 +1,185 @@
+{
+  "backImage": "img/fearless.png",
+  "cards": [
+    {
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg/165px-Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg",
+      "txt": "George Washington"
+    },
+    {
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/John_Adams%2C_Gilbert_Stuart%2C_c1800_1815.jpg/165px-John_Adams%2C_Gilbert_Stuart%2C_c1800_1815.jpg",
+      "txt": "John Adams"
+    },
+    {
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Thomas_Jefferson_by_Rembrandt_Peale%2C_1800.jpg/165px-Thomas_Jefferson_by_Rembrandt_Peale%2C_1800.jpg",
+      "txt": "Thomas Jefferson"
+    },
+    {
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/James_Madison.jpg/165px-James_Madison.jpg",
+      "txt": "James Madison"
+    },
+    {
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/James_Monroe_White_House_portrait_1819.jpg/165px-James_Monroe_White_House_portrait_1819.jpg",
+      "txt": "James Monroe"
+    },
+    {
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/JQA_Photo.tif/lossy-page1-165px-JQA_Photo.tif.jpg",
+      "txt": "John Quincy Adams"
+    },
+    {
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Andrew_jackson_head.jpg/165px-Andrew_jackson_head.jpg",
+      "txt": "Andrew Jackson"
+    },
+    {
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Martin_Van_Buren_edit.jpg/165px-Martin_Van_Buren_edit.jpg",
+      "txt": "Martin Van Buren"
+    },
+    {
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/William_Henry_Harrison_daguerreotype_edit.jpg/165px-William_Henry_Harrison_daguerreotype_edit.jpg",
+      "txt": "William Henry Harrison"
+    },
+    {
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Tyler_Daguerreotype_crop_%28restoration%29.jpg/165px-Tyler_Daguerreotype_crop_%28restoration%29.jpg",
+      "txt": "John Tyler"
+    },
+    {
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/JKP.jpg/165px-JKP.jpg",
+      "txt": "James K. Polk"
+    },
+    {
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Zachary_Taylor_restored_and_cropped.jpg/165px-Zachary_Taylor_restored_and_cropped.jpg",
+      "txt": "Zachary Taylor"
+    },
+    {
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Millard_Fillmore_by_Brady_Studio_1855-65-crop.jpg/165px-Millard_Fillmore_by_Brady_Studio_1855-65-crop.jpg",
+      "txt": "Millard Fillmore"
+    },
+    {
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Franklin_Pierce_-_Cropped.jpg/165px-Franklin_Pierce_-_Cropped.jpg",
+      "txt": "Franklin Pierce"
+    },
+    {
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/James_Buchanan.jpg/165px-James_Buchanan.jpg",
+      "txt": "James Buchanan"
+    },
+    {
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Abraham_Lincoln_O-77_matte_collodion_print.jpg/165px-Abraham_Lincoln_O-77_matte_collodion_print.jpg",
+      "txt": "Abraham Lincoln"
+    },
+    {
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Andrew_Johnson_photo_portrait_head_and_shoulders%2C_c1870-1880-Edit1.jpg/165px-Andrew_Johnson_photo_portrait_head_and_shoulders%2C_c1870-1880-Edit1.jpg",
+      "txt": "Andrew Johnson"
+    },
+    {
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Ulysses_S_Grant_by_Brady_c1870-restored.jpg/165px-Ulysses_S_Grant_by_Brady_c1870-restored.jpg",
+      "txt": "Ulysses S. Grant"
+    },
+    {
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/President_Rutherford_Hayes_1870_-_1880_Restored.jpg/165px-President_Rutherford_Hayes_1870_-_1880_Restored.jpg",
+      "txt": "Rutherford B. Hayes"
+    },
+    {
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/James_Abram_Garfield%2C_photo_portrait_seated.jpg/165px-James_Abram_Garfield%2C_photo_portrait_seated.jpg",
+      "txt": "James A. Garfield"
+    },
+    {
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Chester_Alan_Arthur.jpg/165px-Chester_Alan_Arthur.jpg",
+      "txt": "Chester A. Arthur"
+    },
+    {
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Grover_Cleveland_-_NARA_-_518139_%28cropped%29.jpg/165px-Grover_Cleveland_-_NARA_-_518139_%28cropped%29.jpg",
+      "txt": "Grover Cleveland"
+    },
+    {
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Benjamin_Harrison%2C_head_and_shoulders_bw_photo%2C_1896.jpg/165px-Benjamin_Harrison%2C_head_and_shoulders_bw_photo%2C_1896.jpg",
+      "txt": "Benjamin Harrison"
+    },
+    {
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Grover_Cleveland_-_NARA_-_518139_%28cropped%29.jpg/165px-Grover_Cleveland_-_NARA_-_518139_%28cropped%29.jpg",
+      "txt": "Grover Cleveland"
+    },
+    {
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Mckinley.jpg/165px-Mckinley.jpg",
+      "txt": "William McKinley"
+    },
+    {
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/President_Roosevelt_-_Pach_Bros.jpg/165px-President_Roosevelt_-_Pach_Bros.jpg",
+      "txt": "Theodore Roosevelt"
+    },
+    {
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/William_Howard_Taft%2C_head-and-shoulders_portrait%2C_facing_front.jpg/165px-William_Howard_Taft%2C_head-and-shoulders_portrait%2C_facing_front.jpg",
+      "txt": "William H. Taft"
+    },
+    {
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Woodrow_Wilson-H%26E.jpg/165px-Woodrow_Wilson-H%26E.jpg",
+      "txt": "Woodrow Wilson"
+    },
+    {
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Warren_G_Harding-Harris_%26_Ewing.jpg/165px-Warren_G_Harding-Harris_%26_Ewing.jpg",
+      "txt": "Warren Harding"
+    },
+    {
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Calvin_Coolidge_cph.3g10777_%28cropped%29.jpg/165px-Calvin_Coolidge_cph.3g10777_%28cropped%29.jpg",
+      "txt": "Calvin Coolidge"
+    },
+    {
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/President_Hoover_portrait.jpg/165px-President_Hoover_portrait.jpg",
+      "txt": "Herbert Hoover"
+    },
+    {
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/FDR_1944_Color_Portrait.jpg/165px-FDR_1944_Color_Portrait.jpg",
+      "txt": "Franklin Delano Roosevelt"
+    },
+    {
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/TRUMAN_58-766-06_CROPPED.jpg/165px-TRUMAN_58-766-06_CROPPED.jpg",
+      "txt": "Harry S. Truman"
+    },
+    {
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Dwight_D._Eisenhower%2C_official_photo_portrait%2C_May_29%2C_1959.jpg/165px-Dwight_D._Eisenhower%2C_official_photo_portrait%2C_May_29%2C_1959.jpg",
+      "txt": "Dwight D. Eisenhower"
+    },
+    {
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/John_F._Kennedy%2C_White_House_color_photo_portrait.jpg/165px-John_F._Kennedy%2C_White_House_color_photo_portrait.jpg",
+      "txt": "John F. Kennedy"
+    },
+    {
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/37_Lyndon_Johnson_3x4.jpg/165px-37_Lyndon_Johnson_3x4.jpg",
+      "txt": "Lyndon B. Johnson"
+    },
+    {
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Richard_M._Nixon%2C_ca._1935_-_1982_-_NARA_-_530679.jpg/165px-Richard_M._Nixon%2C_ca._1935_-_1982_-_NARA_-_530679.jpg",
+      "txt": "Richard Nixon"
+    },
+    {
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Gerald_Ford_presidential_portrait.jpg/165px-Gerald_Ford_presidential_portrait.jpg",
+      "txt": "Gerald Ford"
+    },
+    {
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/JimmyCarterPortrait2.jpg/165px-JimmyCarterPortrait2.jpg",
+      "txt": "Jimmy Carter"
+    },
+    {
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Portrait_of_President_Reagan_1981.jpg/165px-Official_Portrait_of_President_Reagan_1981.jpg",
+      "txt": "Ronald Reagan"
+    },
+    {
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/George_H._W._Bush%2C_President_of_the_United_States%2C_1989_official_portrait_%28cropped%29.jpg/165px-George_H._W._Bush%2C_President_of_the_United_States%2C_1989_official_portrait_%28cropped%29.jpg",
+      "txt": "George H. W. Bush"
+    },
+    {
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Bill_Clinton.jpg/165px-Bill_Clinton.jpg",
+      "txt": "Bill Clinton"
+    },
+    {
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/George-W-Bush.jpeg/165px-George-W-Bush.jpeg",
+      "txt": "George W. Bush"
+    },
+    {
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Official_portrait_of_Barack_Obama.jpg/165px-Official_portrait_of_Barack_Obama.jpg",
+      "txt": "Barack Obama"
+    },
+    {
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Donald_Trump_official_portrait.jpg/165px-Donald_Trump_official_portrait.jpg",
+      "txt": "Donald Trump"
+    }
+  ]
+}

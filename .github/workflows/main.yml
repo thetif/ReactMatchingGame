@@ -10,7 +10,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v1
       - name: Build and Deploy
-        uses: thetif/ReactMatchingGame
+        uses: thetif/ReactMatchingGame@v1
         with:
           REACT_APP_MATCH_API_KEY: ${{ secrets.REACT_APP_MATCH_API_KEY }}
           BASE_BRANCH: master 

@@ -16,7 +16,7 @@ jobs:
           npm run-script build
           
       - name: Deploy
-        uses: thetif/ReactMatchingGame@releases/v3
+        uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
           REACT_APP_MATCH_API_KEY: ${{ secrets.REACT_APP_MATCH_API_KEY }}
           BASE_BRANCH: master 

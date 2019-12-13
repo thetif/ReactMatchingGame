@@ -1,4 +1,5 @@
 import React from 'react';
+import path from 'path';
 import Card from "./card";
 import GameSelector from "./gameSelector";
 
@@ -16,7 +17,7 @@ export default class GameContainer extends React.Component{
             activeCard:null,
             index:null,
             selectedSource:'fearless',
-            backImage:`${window.location}/img/fearless.png`
+            backImage: '/img/fearless.png'
         };
         this.handleClick = this.handleClick.bind(this)
     }
@@ -25,32 +26,41 @@ export default class GameContainer extends React.Component{
         this.setState({selectedSource:source}, () => {console.log(`Set selectedSource to ${this.state.selectedSource}`)})
     }
 
-    setupGame(){
-            fetch(`${window.location}/static/media/${this.state.selectedSource}.json`).then((response) =>{
-                return response.json()
-            }).then((entity)=>{
-                console.log(entity);
-                let possibleCards = entity.cards;
-
-                let chosenCards = [].fill(null, this.state.num_matches);
-                for (let i=0; i<this.state.num_matches; i++){
-                    let randomPos = Math.floor(Math.random() * possibleCards.length);
-
-                    let card = possibleCards[randomPos];
-                    card.useImg = true;
-                    card.flipped = false;
-                    chosenCards.push(card);
-                    card = Object.assign({}, card);
-                    card.useImg = false;
-                    chosenCards.push(card);
-                    possibleCards.splice(randomPos,1)
-                }
-
-                shuffle(chosenCards);
-
-                this.setState({cards:chosenCards})
-            });
-
+    setupGame = async() => {
+        const json = await fetch(`/api/gateway.php/fearless/v1/employees/directory`, {
+            method: 'GET',
+            withCredentials: true,
+            credentials: 'include',
+            headers: new Headers({
+                'Authorization': 'Basic '+btoa(`${process.env.REACT_APP_MATCH_API_KEY}:x`), 
+                'Accept': 'application/json'
+            })
+        })
+        .then(response => response.json())
+        .catch(error => console.error(`Error: ${error}`));
+        
+        if (json) {
+            console.log(json);
+            let possibleCards = json.employees;
+    
+            let chosenCards = [].fill(null, this.state.num_matches);
+            for (let i=0; i<this.state.num_matches; i++){
+                let randomPos = Math.floor(Math.random() * possibleCards.length);
+    
+                let card = possibleCards[randomPos];
+                card.useImg = true;
+                card.flipped = false;
+                chosenCards.push(card);
+                card = Object.assign({}, card);
+                card.useImg = false;
+                chosenCards.push(card);
+                possibleCards.splice(randomPos,1)
+            }
+    
+            shuffle(chosenCards);
+    
+            this.setState({cards:chosenCards});
+        }
     }
     componentDidMount() {
         this.setupGame()
@@ -73,7 +83,7 @@ export default class GameContainer extends React.Component{
                 if (flippedCards.length === 2){
 
                     turns ++;
-                    if(flippedCards[0].txt === flippedCards[1].txt){
+                    if(flippedCards[0].id === flippedCards[1].id){
                         flippedCards.forEach(card => card.matched = true);
                         matches ++;
                     } else{
@@ -99,7 +109,7 @@ export default class GameContainer extends React.Component{
                                 <Card card={card}
                                       backImage={this.state.backImage}
                                       onClick={() => this.handleClick(index)}
-                                      key={`${card.useImg ? 'pic' : 'name'}-${card.img}`}
+                                      key={`${card.useImg ? 'pic' : 'name'}-${card.id}`}
                                 />
                             )
                         })}

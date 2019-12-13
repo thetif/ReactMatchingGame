@@ -16,7 +16,7 @@ export default class GameContainer extends React.Component{
             activeCard:null,
             index:null,
             selectedSource:'fearless',
-            backImage:"/img/fearless.png"
+            backImage:`${window.location}/img/fearless.png`
         };
         this.handleClick = this.handleClick.bind(this)
     }
@@ -26,7 +26,7 @@ export default class GameContainer extends React.Component{
     }
 
     setupGame(){
-            fetch(`/static/${this.state.selectedSource}.json`).then((response) =>{
+            fetch(`${window.location}/static/media/${this.state.selectedSource}.json`).then((response) =>{
                 return response.json()
             }).then((entity)=>{
                 console.log(entity);

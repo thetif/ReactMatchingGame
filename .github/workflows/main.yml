@@ -8,9 +8,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v1
+        uses: actions/checkout@releases/latest
       - name: Build and Deploy
-        uses: thetif/ReactMatchingGame@v1
+        uses: thetif/ReactMatchingGame@releases/latest
         with:
           REACT_APP_MATCH_API_KEY: ${{ secrets.REACT_APP_MATCH_API_KEY }}
           BASE_BRANCH: master 
